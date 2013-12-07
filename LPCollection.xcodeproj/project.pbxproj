@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3CDCF1184E359200CCA12C /* STPPickUpLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CDCF0184E359200CCA12C /* STPPickUpLayout.m */; };
 		A2A22650184E0C58005CDF8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A2264F184E0C58005CDF8F /* Foundation.framework */; };
 		A2A22652184E0C58005CDF8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A22651184E0C58005CDF8F /* CoreGraphics.framework */; };
 		A2A22654184E0C58005CDF8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A22653184E0C58005CDF8F /* UIKit.framework */; };
@@ -24,6 +25,11 @@
 		A2A2267A184E0C58005CDF8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A22653184E0C58005CDF8F /* UIKit.framework */; };
 		A2A22682184E0C58005CDF8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A22680184E0C58005CDF8F /* InfoPlist.strings */; };
 		A2A22684184E0C58005CDF8F /* LPCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A22683184E0C58005CDF8F /* LPCollectionTests.m */; };
+		A2A2268F184E0C87005CDF8F /* STPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2268E184E0C87005CDF8F /* STPCollectionViewController.m */; };
+		A2A22693184E0CF0005CDF8F /* STPTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A22692184E0CF0005CDF8F /* STPTransitionManager.m */; };
+		A2A22697184E0F23005CDF8F /* STPListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A22696184E0F23005CDF8F /* STPListViewController.m */; };
+		A2A2269A184E1240005CDF8F /* STPListPickUpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A22699184E1240005CDF8F /* STPListPickUpCell.m */; };
+		A2A2269D184E1DEC005CDF8F /* STPPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2269C184E1DEC005CDF8F /* STPPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C3CDCEF184E359200CCA12C /* STPPickUpLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPickUpLayout.h; sourceTree = "<group>"; };
+		8C3CDCF0184E359200CCA12C /* STPPickUpLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPickUpLayout.m; sourceTree = "<group>"; };
 		A2A2264C184E0C58005CDF8F /* LPCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A2264F184E0C58005CDF8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2A22651184E0C58005CDF8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +69,16 @@
 		A2A2267F184E0C58005CDF8F /* LPCollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPCollectionTests-Info.plist"; sourceTree = "<group>"; };
 		A2A22681184E0C58005CDF8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2A22683184E0C58005CDF8F /* LPCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPCollectionTests.m; sourceTree = "<group>"; };
+		A2A2268D184E0C87005CDF8F /* STPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCollectionViewController.h; sourceTree = "<group>"; };
+		A2A2268E184E0C87005CDF8F /* STPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCollectionViewController.m; sourceTree = "<group>"; };
+		A2A22691184E0CF0005CDF8F /* STPTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTransitionManager.h; sourceTree = "<group>"; };
+		A2A22692184E0CF0005CDF8F /* STPTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTransitionManager.m; sourceTree = "<group>"; };
+		A2A22695184E0F23005CDF8F /* STPListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPListViewController.h; sourceTree = "<group>"; };
+		A2A22696184E0F23005CDF8F /* STPListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPListViewController.m; sourceTree = "<group>"; };
+		A2A22698184E1240005CDF8F /* STPListPickUpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPListPickUpCell.h; sourceTree = "<group>"; };
+		A2A22699184E1240005CDF8F /* STPListPickUpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPListPickUpCell.m; sourceTree = "<group>"; };
+		A2A2269B184E1DEC005CDF8F /* STPPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPageViewController.h; sourceTree = "<group>"; };
+		A2A2269C184E1DEC005CDF8F /* STPPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +140,16 @@
 			children = (
 				A2A2265E184E0C58005CDF8F /* STPAppDelegate.h */,
 				A2A2265F184E0C58005CDF8F /* STPAppDelegate.m */,
-				A2A22661184E0C58005CDF8F /* STPRootViewController.h */,
-				A2A22662184E0C58005CDF8F /* STPRootViewController.m */,
-				A2A22664184E0C58005CDF8F /* STPDataViewController.h */,
-				A2A22665184E0C58005CDF8F /* STPDataViewController.m */,
-				A2A22667184E0C58005CDF8F /* STPModelController.h */,
-				A2A22668184E0C58005CDF8F /* STPModelController.m */,
+				A2A22691184E0CF0005CDF8F /* STPTransitionManager.h */,
+				A2A22692184E0CF0005CDF8F /* STPTransitionManager.m */,
+				A2A22690184E0C92005CDF8F /* CollectionView */,
+				A2A22695184E0F23005CDF8F /* STPListViewController.h */,
+				A2A22696184E0F23005CDF8F /* STPListViewController.m */,
+				8C3CDCEF184E359200CCA12C /* STPPickUpLayout.h */,
+				8C3CDCF0184E359200CCA12C /* STPPickUpLayout.m */,
+				A2A2269B184E1DEC005CDF8F /* STPPageViewController.h */,
+				A2A2269C184E1DEC005CDF8F /* STPPageViewController.m */,
+				A2A22694184E0E37005CDF8F /* PagingView */,
 				A2A2266A184E0C58005CDF8F /* Main_iPhone.storyboard */,
 				A2A2266D184E0C58005CDF8F /* Main_iPad.storyboard */,
 				A2A22670184E0C58005CDF8F /* Images.xcassets */,
@@ -163,6 +185,30 @@
 				A2A22680184E0C58005CDF8F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2A22690184E0C92005CDF8F /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A2A22698184E1240005CDF8F /* STPListPickUpCell.h */,
+				A2A22699184E1240005CDF8F /* STPListPickUpCell.m */,
+				A2A2268D184E0C87005CDF8F /* STPCollectionViewController.h */,
+				A2A2268E184E0C87005CDF8F /* STPCollectionViewController.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		A2A22694184E0E37005CDF8F /* PagingView */ = {
+			isa = PBXGroup;
+			children = (
+				A2A22661184E0C58005CDF8F /* STPRootViewController.h */,
+				A2A22662184E0C58005CDF8F /* STPRootViewController.m */,
+				A2A22664184E0C58005CDF8F /* STPDataViewController.h */,
+				A2A22665184E0C58005CDF8F /* STPDataViewController.m */,
+				A2A22667184E0C58005CDF8F /* STPModelController.h */,
+				A2A22668184E0C58005CDF8F /* STPModelController.m */,
+			);
+			name = PagingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +312,15 @@
 			files = (
 				A2A22669184E0C58005CDF8F /* STPModelController.m in Sources */,
 				A2A22660184E0C58005CDF8F /* STPAppDelegate.m in Sources */,
+				A2A2268F184E0C87005CDF8F /* STPCollectionViewController.m in Sources */,
+				8C3CDCF1184E359200CCA12C /* STPPickUpLayout.m in Sources */,
+				A2A22693184E0CF0005CDF8F /* STPTransitionManager.m in Sources */,
+				A2A22697184E0F23005CDF8F /* STPListViewController.m in Sources */,
 				A2A2265C184E0C58005CDF8F /* main.m in Sources */,
 				A2A22666184E0C58005CDF8F /* STPDataViewController.m in Sources */,
 				A2A22663184E0C58005CDF8F /* STPRootViewController.m in Sources */,
+				A2A2269A184E1240005CDF8F /* STPListPickUpCell.m in Sources */,
+				A2A2269D184E1DEC005CDF8F /* STPPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +539,7 @@
 				A2A22689184E0C58005CDF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2A2268A184E0C58005CDF8F /* Build configuration list for PBXNativeTarget "LPCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +548,7 @@
 				A2A2268C184E0C58005CDF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
